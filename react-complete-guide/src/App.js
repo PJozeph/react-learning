@@ -7,7 +7,7 @@ const expenses = [
   { title: 'foo', amount: 12, date: new Date(2020, 5, 12) },
 ]
 
-function App() {
+const App = () => {
   return (
     <Card className="App">
       <ExpenseItem
